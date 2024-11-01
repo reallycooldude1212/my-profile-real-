@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f5f7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    text-align: center;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin:10px auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: #4A4A4A;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+.link {
+    color: #008CFF;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.link:hover {
+}
+
+.card-sep {
+    margin: 20px auto; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    background-color: lightgrey;
+    width: 90%;
+
+}
+
+.interest h1 {
+    font-size: 1.2em;
+    color: #4A90E2;
+    display: flex;
+    align-items: center;
+}
+
+.social-media {
+    color: #8FA1B3;
+    font-weight: bold;
+    margin: 20px 0;
+    underline: none;
+
+}
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
